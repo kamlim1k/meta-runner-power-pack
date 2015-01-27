@@ -1,7 +1,3 @@
-#
-# Script.ps1
-#
-<#
 <?xml version="1.0" encoding="UTF-8"?>
 <meta-runner name="PSMySql">
   <description>A PowerShell wrapper for mysql</description>
@@ -27,7 +23,7 @@
           <param name="teamcity.step.mode" value="default" />
           <param name="jetbrains_powershell_script_code">
             <![CDATA[			   
-#>
+
 
 function MySql-IsExist {
     param($loginPath, $dbName)
@@ -155,12 +151,11 @@ try {
 }
 
 
- <# ]]>
+  ]]>
           </param>
         </parameters>
       </runner>
     </build-runners>
     <requirements />
   </settings>
-</meta-runner>
-#> 
+</meta-runner> 
